@@ -1,0 +1,50 @@
+.SocialLogin\:EntryContainer > div,
+.SocialLogin\:EntryContainer > div > div {
+    height: 100% !important;
+}
+
+
+/* Brand-matching provider buttons */
+.SocialLogin\:providerButton {
+    --BrandBackground: #606D7B;
+    background: var(--BrandBackground);
+}
+.SocialLogin\:providerButton:hover, .SocialLogin\:providerButton:focus {
+    background: color-mix(in hsl, var(--BrandBackground) 90%, white);
+}
+
+/* Brand color definitions */
+.SocialLogin\:provider_amazon {--BrandBackground: #FF9900;}
+.SocialLogin\:provider_apple {--BrandBackground: #000000;}
+.SocialLogin\:provider_discord {--BrandBackground: #5865F2;}
+.SocialLogin\:provider_dribbble {--BrandBackground: #FFABE7;}
+.SocialLogin\:provider_dropbox {--BrandBackground: #0061FE;}
+.SocialLogin\:provider_facebook {--BrandBackground: #0865FE;}
+.SocialLogin\:provider_figma {--BrandBackground: #FF3737;}
+.SocialLogin\:provider_github {--BrandBackground: #000000;}
+.SocialLogin\:provider_gitlab {--BrandBackground: #FC6D26;}
+.SocialLogin\:provider_google {--BrandBackground: #DB4B40;}
+.SocialLogin\:provider_instagram {--BrandBackground: #FF0069;}
+.SocialLogin\:provider_linkedin {--BrandBackground: #0A66C2;}
+.SocialLogin\:provider_medium {--BrandBackground: #000000;}
+.SocialLogin\:provider_microsoft {--BrandBackground: #2C2C2E;}
+.SocialLogin\:provider_modrinth {--BrandBackground: #1BD066;}
+.SocialLogin\:provider_osu {--BrandBackground: #FF66AB;}
+.SocialLogin\:provider_paymenter {--BrandBackground: #4667ff;}
+.SocialLogin\:provider_paypal {--BrandBackground: #002994;}
+.SocialLogin\:provider_pinterest {--BrandBackground: #FF5B45;}
+.SocialLogin\:provider_reddit {--BrandBackground: #FF4500;}
+.SocialLogin\:provider_slack {--BrandBackground: #510D4F;}
+.SocialLogin\:provider_snapchat {--BrandBackground: #E40184;}
+.SocialLogin\:provider_spotify {--BrandBackground: #2FE58F;}
+.SocialLogin\:provider_steam {--BrandBackground: #133E71;}
+.SocialLogin\:provider_telegram {--BrandBackground: #1CA0DB;}
+.SocialLogin\:provider_tiktok {--BrandBackground: #000000;}
+.SocialLogin\:provider_trello {--BrandBackground: #0079BF;}
+.SocialLogin\:provider_tumblr {--BrandBackground: #0D243F;}
+.SocialLogin\:provider_twitter {--BrandBackground: #2AA9E0;}
+.SocialLogin\:provider_twitch {--BrandBackground: #9146FF;}
+.SocialLogin\:provider_uber {--BrandBackground: #A5B586;}
+.SocialLogin\:provider_unsplash {--BrandBackground: #111111;}
+.SocialLogin\:provider_vercel {--BrandBackground: #000000;}
+.SocialLogin\:provider_wordpress {--BrandBackground: #21759B;}
