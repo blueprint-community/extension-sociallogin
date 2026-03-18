@@ -85,8 +85,6 @@ class OsuSocialiteProvider extends AbstractProvider implements ProviderInterface
         }
         curl_close($ch);
 
-        echo($response);
-
         return json_decode($response, true);
     }
 
