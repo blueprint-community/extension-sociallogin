@@ -2,7 +2,7 @@ info:
   name: "SocialLogin"
   identifier: "sociallogin"
   description: "Simplify user sign-in through OAuth providers"
-  version: "1.2.0"
+  version: "1.2.1"
   target: "beta-2024-12"
   author: "jelco,prplwtf"
   icon: "icon.jpg"
