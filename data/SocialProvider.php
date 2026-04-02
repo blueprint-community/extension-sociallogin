@@ -58,6 +58,14 @@ class SocialProvider extends Model
                 'message' => 'This provider requires a custom module which you have to install with the following command:<br><code>composer require socialiteproviders/apple</code>'
             ]
         ],
+        'authentik' => [
+            'name' => 'Authentik',
+            'short_name' => 'authentik',
+            'message' => [
+                'type' => 'warning',
+                'message' => 'This provider requires a custom module which you have to install with the following command:<br><code>composer require socialiteproviders/authentik</code>'
+            ]
+        ],
         'discord' => [
             'name' => 'Discord',
             'short_name' => 'discord',
